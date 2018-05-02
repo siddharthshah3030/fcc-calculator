@@ -10,7 +10,7 @@ $(".enter").click(() => {
   let calculated;
   
   try {
-    calculated = eval(out).toFixed(3);
+    calculated = eval(out);
   } catch (error) {
     calculated = "error";
   }
